@@ -1,0 +1,25 @@
+{
+  "name": "iconfont-download",
+  "version": "0.0.0",
+  "description": "download png picture from an iconfont-repo",
+  "keywords": [
+    "iconfont",
+    "png",
+    "download"
+  ],
+  "author": "zhengjie<17862705330@163.com>",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "svg2img": "^0.9.3",
+    "xml2js": "^0.4.23"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
